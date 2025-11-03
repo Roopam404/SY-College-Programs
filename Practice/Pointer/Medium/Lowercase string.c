@@ -1,0 +1,6 @@
+#include<stdio.h>
+int main(){
+    char s[50],*p=s; scanf("%s",s);
+    while(*p){ if(*p>='A'&&*p<='Z') *p+=32; p++; }
+    printf("%s",s);
+}
